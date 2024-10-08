@@ -1,9 +1,55 @@
-# IOWA-Sales-Analysis
+# License Sales Analysis
 
-The dataset encompasses a vast amount of information, comprising over 24 million rows. It captures the purchase details of Iowa Class "E" liquor licensees, including product specifics and the corresponding purchase dates. The data spans from January 1, 2012, up until the present.
+This project analyzes the purchase behavior of Iowa Class "E" liquor licensees, covering detailed information about product purchases and corresponding purchase dates. The dataset contains over **24 million rows**, providing a comprehensive look at liquor sales from **January 1, 2012, to the present**.
 
-To begin our analysis, we have employed a Dimensional Model, which consists of Fact and Dimension tables. These tables are constructed based on our data source. To ensure data accuracy and consistency, we utilized Alteryx for Data Profiling. This process enabled us to identify areas requiring data cleaning and correction.
+## Project Overview
 
-Furthermore, we employed Talend to facilitate the integration of data from diverse sources into one or more consolidated tables. This integration step allows us to combine information from various origins, ensuring a comprehensive and unified dataset for further analysis.
+### 1. **Data Source**
+   - The dataset encompasses purchase records of Iowa Class "E" liquor licensees, including product details and purchase timestamps.
+   - Time Period: January 1, 2012 – Present.
+   
+### 2. **Data Modeling**
+   - We have employed a **Dimensional Model** to structure the data.
+   - The model includes **Fact** and **Dimension** tables, created based on the original dataset.
+   - This approach supports an efficient and logical structure for conducting our analysis.
 
-Link to my tableau data visualisation: https://public.tableau.com/app/profile/shriya.pandita4567/viz/Iowa_Sales_Analysis_Tableau/Story1
+### 3. **Data Profiling and Cleaning**
+   - **Alteryx** was used to profile the data, helping us identify areas requiring cleaning and correction.
+   - Data accuracy and consistency were prioritized to ensure reliable analysis.
+
+### 4. **Data Integration**
+   - **Talend** was utilized for integrating data from multiple sources into consolidated tables.
+   - This integration step ensures that information from various origins is merged into a unified dataset for more effective analysis.
+
+### 5. **Data Visualization**
+   - To visualize the analysis, **Tableau** was used to create interactive dashboards.
+   - These visualizations provide insights into sales trends, product performance, and licensee purchase behaviors over time.
+
+   [Link to Tableau Data Visualization](https://public.tableau.com/app/profile/yash.wadhwa6314/viz/Iowa_Sales_Analysis_Tableau_16847896028900/Story1)
+
+---
+
+## Tools and Technologies
+
+- **Data Profiling and Cleaning**: Alteryx
+- **Data Integration**: Talend
+- **Data Visualization**: Tableau
+- **Data Storage and Modeling**: Dimensional Model (Fact and Dimension tables)
+
+---
+
+## Future Enhancements
+
+- Expanding the analysis to include advanced predictive models for sales forecasting.
+- Adding geographic analysis to identify regional sales patterns.
+- Integrating external datasets to explore external factors affecting sales.
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+Feel free to explore the repository and check out the visualizations in Tableau. Any suggestions or feedback are always welcome!
