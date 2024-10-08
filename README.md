@@ -1,4 +1,4 @@
-# License Sales Analysis
+# License Sales Forecasting
 
 This project analyzes the purchase behavior of Iowa Class "E" liquor licensees, covering detailed information about product purchases and corresponding purchase dates. The dataset contains over **24 million rows**, providing a comprehensive look at liquor sales from **January 1, 2012, to the present**.
 
